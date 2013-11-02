@@ -5,6 +5,8 @@ layout: default
 
 {::options parse_block_html="true" /}
 
+![Courseware](/assets/images/courseware.png)
+
 <div id="about">
 
 ## The Courseware Project

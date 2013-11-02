@@ -10,13 +10,18 @@ h2, h3 {
 }
 
 body {
-  background: url('../images/background.png') no-repeat top left;
+  background: url('../images/background.png') repeat top left;
   background-size: 100%;
+}
+
+img:first-child {
+  margin-top: 3%;
+  padding-left: 40px;
 }
 
 #about {
   width: 30%;
-  margin-top: 5%;
+  margin-top: 20px;
   padding: 10px 20px 10px 40px;
   background: rgba(255, 255, 255, 0.6);
 }
@@ -24,14 +29,12 @@ body {
 @media screen and (max-width: 768px), screen and (max-width: 800px) {
   #about {
     font-size: 90%;
-    margin-top: 1%;
   }
 }
 
 @media screen and (max-width: 360px) {
   #about {
     width: 300px;
-    margin-top: 280px;
     font-size: 90%;
     margin-left: 0;
   }
@@ -40,7 +43,6 @@ body {
 @media screen and (max-width: 320px) {
   #about {
     width: 260px;
-    margin-top: 240px;
     font-size: 90%;
     margin-left: 0;
   }
