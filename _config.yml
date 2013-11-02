@@ -1,0 +1,11 @@
+name: The Courseware Project
+pygments: false
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  use_coderay: false

@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400&subset=latin,latin-ext);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+h2, h3 {
+  font-weight: 300;
+}
+
+body {
+  background: url('../images/background.png') no-repeat top left;
+  background-size: 100%;
+}
+
+#about {
+  width: 30%;
+  margin-top: 5%;
+  padding: 10px 20px 10px 40px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 768px), screen and (max-width: 800px) {
+  #about {
+    font-size: 90%;
+    margin-top: 1%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #about {
+    width: 300px;
+    margin-top: 280px;
+    font-size: 90%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #about {
+    width: 260px;
+    margin-top: 240px;
+    font-size: 90%;
+    margin-left: 0;
+  }
+}
