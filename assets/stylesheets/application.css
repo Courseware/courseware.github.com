@@ -14,7 +14,7 @@ body {
   background-size: 100%;
 }
 
-img:first-child {
+#logo img {
   margin-top: 3%;
   padding-left: 40px;
 }
@@ -46,4 +46,38 @@ img:first-child {
     font-size: 90%;
     margin-left: 0;
   }
+}
+
+#screens img {
+  width: 100px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+/* Lightbox */
+ /* Credits: http://www.studiomoh.com/fun/csslightbox/ */
+.lb {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.lb:target {
+  display: block;
+}
+
+/** IE doesn't support :target, so we use CSS expressions **/
+.lb {
+  display: expression((document.location.toString().split('#').slice(1) == this.id)?'block':'none');
+}
+
+.lb img {
+  border-radius: 3px;
 }
