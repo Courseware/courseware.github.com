@@ -81,4 +81,6 @@ Courseware was created in Transylvania and is now available
 under MIT thanks to our
 [contributors](https://github.com/courseware/coursewa.re/graphs/contributors).
 
+You can read our story [here](http://ampersate.com/moving-on).
+
 </div>
